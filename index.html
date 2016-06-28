@@ -1,0 +1,1001 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>超棒的学习资源手机 by linuxing3</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>超棒的学习资源手机</h1>
+        <p>Awesome resources for myself</p>
+
+        <p class="view"><a href="https://github.com/linuxing3/awesome-resources">View the Project on GitHub <small>linuxing3/awesome-resources</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/linuxing3/awesome-resources/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/linuxing3/awesome-resources/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/linuxing3/awesome-resources">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a id="开发资源总结-持续整理中" class="anchor" href="#%E5%BC%80%E5%8F%91%E8%B5%84%E6%BA%90%E6%80%BB%E7%BB%93-%E6%8C%81%E7%BB%AD%E6%95%B4%E7%90%86%E4%B8%AD" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>开发资源总结 (持续整理中)</h1>
+
+<p>这是对自己这几年开发的一个总结，各种项目、资源、书籍、博客等</p>
+
+<p>喜欢么？或者对您有用？那就 Star 一下吧 ^_^</p>
+
+
+
+
+
+<ul>
+<li>
+<a href="#web-%E5%89%8D%E7%AB%AF">Web 前端</a>
+
+<ul>
+<li>
+<a href="#javascript">Javascript</a>
+
+<ul>
+<li><a href="#html5-%E7%9B%B8%E5%85%B3">HTML5 相关</a></li>
+<li><a href="#angularjs">AngularJS</a></li>
+</ul>
+</li>
+<li><a href="#css">CSS</a></li>
+</ul>
+</li>
+<li>
+<a href="#web-%E5%90%8E%E7%AB%AF">Web 后端</a>
+
+<ul>
+<li><a href="#ruby">Ruby</a></li>
+<li><a href="#python">Python</a></li>
+<li>
+<a href="#nodejs">NodeJS</a>
+
+<ul>
+<li><a href="#express">Express</a></li>
+</ul>
+</li>
+<li><a href="#erlang">Erlang</a></li>
+<li><a href="#java">Java</a></li>
+<li><a href="#cc">C/C++</a></li>
+<li><a href="#go">Go</a></li>
+</ul>
+</li>
+<li><a href="#ios-%E6%88%96-osx">IOS 或 OSX</a></li>
+<li><a href="#android">Android</a></li>
+<li>
+<a href="#%E4%BB%A3%E7%A0%81%E6%95%88%E7%8E%87">代码效率</a>
+
+<ul>
+<li><a href="#coffeescript">CoffeeScript</a></li>
+<li><a href="#typescript">TypeScript</a></li>
+<li><a href="#sublime-text">Sublime Text</a></li>
+</ul>
+</li>
+<li>
+<a href="#%E4%BA%91%E8%AE%A1%E7%AE%97">云计算</a>
+
+<ul>
+<li><a href="#docker">Docker</a></li>
+<li><a href="#os">OS</a></li>
+</ul>
+</li>
+<li><a href="#%E5%BC%80%E6%BA%90%E4%BA%A7%E5%93%81%E8%AE%BA%E5%9D%9B%E3%80%81%E5%9C%A8%E7%BA%BF%E6%95%99%E8%82%B2%E3%80%81%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86%E7%AD%89">开源产品(论坛、在线教育、项目管理等)</a></li>
+<li><a href="#awesome-%E7%B3%BB%E5%88%97">Awesome 系列</a></li>
+<li>
+<a href="#%E4%BB%A3%E7%A0%81%E8%A7%84%E8%8C%83&amp;%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F">代码规范&amp;设计模式</a>
+
+<ul>
+<li>
+<a href="#ruby-1">Ruby</a>
+
+<ul>
+<li><a href="#rails">Rails</a></li>
+</ul>
+</li>
+<li><a href="#java-1">Java</a></li>
+<li><a href="#bash">Bash</a></li>
+<li><a href="#objective-c">Objective-C</a></li>
+</ul>
+</li>
+<li><a href="#%E6%95%B0%E6%8D%AE%E5%BA%93">数据库</a></li>
+<li>
+<a href="#%E5%8D%9A%E5%AE%A2--%E7%BD%91%E7%AB%99">博客 / 网站</a>
+
+<ul>
+<li><a href="#%E8%AE%BE%E8%AE%A1">设计</a></li>
+<li><a href="#%E6%8A%80%E6%9C%AF">技术</a></li>
+</ul>
+</li>
+<li><a href="#%E4%B9%A6%E7%B1%8D--%E9%98%85%E8%AF%BB">书籍 / 阅读</a></li>
+<li><a href="#%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91">科学上网</a></li>
+<li><a href="#%E5%85%B6%E4%BB%96">其他</a></li>
+</ul>
+
+
+
+<h2>
+<a id="web-前端" class="anchor" href="#web-%E5%89%8D%E7%AB%AF" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Web 前端</h2>
+
+<h4>
+<a id="javascript" class="anchor" href="#javascript" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Javascript</h4>
+
+<ul>
+<li>
+<a href="https://github.com/adambom/parallel.js">parallel.js</a>: 前后端通用的一个并行库</li>
+<li>
+<a href="https://github.com/madrobby/zepto">zepto</a>: 用于现代浏览器的兼容 jQuery 的库</li>
+<li>
+<a href="https://github.com/totorojs/totoro">totoro</a>: 稳定的跨浏览器测试工具</li>
+<li>
+<a href="https://github.com/Zhouzi/TheaterJS">TheaterJS</a>: 一个用于模拟人输入状态的 JS 库</li>
+<li>
+<a href="https://github.com/markdalgleish/stellar.js">stellar.js</a>: 前端用于实现异步滚动效果的库，现已不再维护</li>
+<li>
+<a href="https://github.com/Prinzhorn/skrollr">skrollr</a>: 另一款实现一步滚动的开源库，使用人数众多，可实现各种狂拽酷炫掉渣天的前端效果，<a href="http://prinzhorn.github.io/skrollr/">看真相</a>
+</li>
+<li>
+<a href="https://github.com/nolimits4web/Framework7">Framework7</a>: 前端框架，是开发人员可以基于 web 技术构建 IOS7 程序</li>
+<li>
+<a href="https://github.com/JexCheng/regulex">regulex</a>: 用于生成 正则表达式 的可视化流程图</li>
+<li>
+<a href="https://github.com/markdown-it/markdown-it">markdown-it</a>: 新型 Markdown 解析器，快速，支持插件</li>
+<li>
+<a href="https://github.com/sindresorhus/multiline">multiline</a>: 用于 Javascript 中的多行文本，类似于 Ruby 的 HERE Doc</li>
+<li>
+<a href="https://github.com/sindresorhus/screenfull.js">screenfull.js</a>: 全屏插件，支持各大浏览器</li>
+<li>
+<a href="https://github.com/olivernn/lunr.js">lunr.js</a>: 类似于 Solr, 但是用于浏览器上的全文搜索引擎，可以为 JSON 创建索引，离线也可以使用</li>
+<li>
+<a href="https://github.com/jeresig/jquery.hotkeys">jquery.hotkeys</a>: jQuery 插件，用于绑定热键</li>
+<li>
+<a href="https://github.com/breach/breach_core">breach_core</a>: Javascript 编写的 Browser (浏览器)</li>
+<li>
+<a href="https://github.com/zmmbreeze/octocard">octocard</a>: 用于生成 Github 信息卡片的库</li>
+<li>
+<a href="https://github.com/lepture/github-cards">github-cards</a>: 用于生成 Github 信息卡片的库</li>
+<li>
+<a href="https://github.com/openexchangerates/money.js">money.js</a>: 轻量级货币转换库，web 和 node 皆可用</li>
+<li>
+<a href="https://github.com/openexchangerates/accounting.js">accounting.js</a>: 轻量级的数字、货币转换库</li>
+<li>
+<a href="https://github.com/mgechev/javascript-algorithms">javascript-algorithms</a>: Javascript 实现的各种算法集合</li>
+<li>
+<a href="https://github.com/dtao/lazy.js">lazy.js</a>: 类似于 underscore, 但是会延迟执行，某些场景下，性能会有很大的提升</li>
+<li>
+<a href="https://github.com/seajs/seajs">seajs</a>: 前端模块加载器，解决模块化、依赖等问题</li>
+<li>
+<a href="https://github.com/davist11/jQuery-One-Page-Nav">jQuery-One-Page-Nav</a>: 单页应用中一个用于处理导航栏的库</li>
+<li>
+<a href="https://github.com/js-js/js.js">js.js</a>: Javascript 实现的 javascript JIT</li>
+<li>
+<a href="https://github.com/jquery/jquery-ui">jquery-ui</a>: jQuery 团队开发的 UI 相关的前端库，功能强大</li>
+<li>
+<a href="https://github.com/tastejs/todomvc">todomvc</a>: 分别基于 AngularJS/EmberJS/Backbone等实现的 TODO List, 帮助开发者选择前端 MVC 库</li>
+<li>
+<a href="https://github.com/mozilla/localForage">localForage</a>: Mozilla 出品，用于离线存储，基于IndexedDB, WebSQL 或者 localStorage, 提供一致的接口</li>
+<li>
+<a href="https://github.com/Wolfy87/EventEmitter">EventEmitter</a>: 浏览器版的 EventEmitter</li>
+<li>
+<a href="https://github.com/marioizquierdo/jquery.serializeJSON">jquery.serializeJSON</a>: jQuery 插件，用于将 form 表单序列化成 JSON 数据</li>
+<li>
+<a href="https://github.com/knockout/knockout">knockout</a>: 前端 MVVM 框架，用于开发富前端应用</li>
+<li>
+<a href="https://github.com/knsv/mermaid">mermaid</a>: 可以根据文本生成流程图，类似于 Markdown 的语法</li>
+<li>
+<a href="https://github.com/bramp/js-sequence-diagrams">js-sequence-diagrams</a>: 另一款可以根据文本生成流程图的库，类似于 Markdown 的语法</li>
+<li>
+<a href="https://github.com/facebook/flow">flow</a>: 一个用来检测 Javascript 语法错误的库， Facebook 出品</li>
+<li>
+<a href="https://github.com/jaukia/zoomooz">zoomooz</a>: jQuery 插件，用来处理浏览器缩放</li>
+<li>
+<a href="https://github.com/fancyapps/fancyBox">fancyBox</a>: 一个用于放大缩小图片、Web 内容或者多媒体元素的库，优雅大方</li>
+<li>
+<a href="https://github.com/lhorie/mithril.js">mithril.js</a>: 轻量型前端 MVC 框架，部分使用场景下性能优于 Angular.js 和 React</li>
+<li>
+<a href="https://github.com/jashkenas/backbone">backbone</a>: 强大的前端 MVC 库，鼻祖级前端库，最初为了配合 Rails 来模块化前端应用，兼容性良好 (兼容到 IE6)，插件丰富，性能良好</li>
+<li>
+<a href="https://github.com/jasny/jquery.smartbanner">jquery.smartbanner</a>: <a href="http://developer.apple.com/library/ios/#documentation/AppleApplications/Reference/SafariWebContent/PromotingAppswithAppBanners/PromotingAppswithAppBanners.html">smartbanner</a> 是从 IOS6 开始支持的一个新特性, 这个插件提供了对早期 IOS4/5 和 Android 的支持</li>
+<li>
+<a href="https://github.com/flesler/jquery.scrollTo">jquery.scrollTo</a>: 在页面上以一个元素为起始以动画的方式移动(ScrollTo)到另一个元素， 支持回退等</li>
+<li>
+<a href="https://github.com/vitch/jScrollPane">jScrollPane</a>: 自定义的滚动条，让所有浏览器都显示一样的滚动条</li>
+<li>
+<a href="https://github.com/peachananr/onepage-scroll">onepage-scroll</a>: 提供类似于 iPhone6 展示页类似的效果，适用于单页应用，兼容到 IE8</li>
+<li>
+<a href="https://github.com/sakabako/scrollMonitor">scrollMonitor</a>: 前端插件用来监控元素的滚动事件(进入、退出等)，性能很好</li>
+<li>
+<a href="https://github.com/janpaepke/ScrollMagic">ScrollMagic</a>: 神奇的滚动交互效果插件，可以在滚动的过程中设置各种各样的动态效果</li>
+<li>
+<a href="https://github.com/paulirish/infinite-scroll">infinite-scroll</a>: 滚动加载，滚动到最下到自动加载， Paul Irish 大神之作</li>
+<li>
+<a href="https://github.com/LeaVerou/animatable">animatable</a>: 仅仅依靠 <code>border-width</code> 和 <code>background-position</code> 实现的各种动态效果，<a href="http://leaverou.github.io/animatable/">看真相</a>
+</li>
+<li>
+<a href="https://github.com/terrymun/Fluidbox">Fluidbox</a>: 页面上内嵌图片的放大缩小效果，类似于 <a href="http://medium.com">Medium</a> 中的效果</li>
+</ul>
+
+<h6>
+<a id="html5-相关" class="anchor" href="#html5-%E7%9B%B8%E5%85%B3" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>HTML5 相关</h6>
+
+<ul>
+<li>
+<a href="https://github.com/branding-fe/sensor">sensor.js</a>: 在智能移动设备浏览器上，通过HTML5的api使用移动设备的功能。定位、运动、倾斜等</li>
+<li>
+<a href="https://github.com/maciejczyzewski/hyhyhy">hyhyhy</a>: 用于创建 基于 HTML5 的 演示文稿</li>
+<li>
+<a href="https://github.com/brutaldesign/swipebox">swipebox</a>: jQuery 插件，用于处理移动端的触摸事件</li>
+<li>
+<a href="https://github.com/mailru/FileAPI">FileAPI</a>: 前端用户处理文件（拖放、多文件上传等）</li>
+<li>
+<a href="https://github.com/RubaXa/Sortable">Sortable</a>: 现代浏览器上用于实现元素拖拽排序的功能，支持 Meteor, AngularJS, React，不依赖 jQuery</li>
+<li>
+<a href="https://github.com/nolimits4web/Swiper">Swiper</a>: 用于实现浏览器上的滑动切换效果，支持硬件加速</li>
+<li>
+<a href="https://github.com/liabru/matter-js">matter-js</a>: 2D 物理效果引擎，碰撞、弹跳等</li>
+<li>
+<a href="https://github.com/senchalabs/jQTouch">jQTouch</a>: 用于辅助创建手机端的 Web 应用，支持主题、Zepto.js 等</li>
+<li>
+<a href="https://github.com/daniel-lundin/snabbt.js">snabbt.js</a>: 一个利用 Javascript 和 CSS transform 的 animation 库</li>
+<li>
+<a href="https://github.com/masayuki0812/c3">c3</a>: 基于 D3 的图表库</li>
+<li>
+<a href="https://github.com/ecomfe/echarts">echarts</a>: 企业级图表库，百度开发</li>
+<li>
+<a href="https://github.com/wagerfield/parallax">parallax.js</a>: 一个用于响应智能手机 orientation 的库</li>
+<li>
+<a href="https://github.com/benbarnett/jQuery-Animate-Enhanced">jQuery-Animate-Enhanced</a>: jQuery 动画库的一个增强，用于现代浏览器</li>
+<li>
+<a href="https://github.com/Voog/wysihtml">wysihtml</a>: 富文本编辑器，适用于现代浏览器</li>
+<li>
+<a href="https://github.com/pornel/slip">slip</a>: 一个通过滑动或者拖拽来操控列表的库</li>
+<li>
+<a href="https://github.com/outpunk/evil-icons">evil-icons</a>: 一个矢量图库，提供 Ruby/Node 等支持</li>
+<li>
+<a href="https://github.com/dimsemenov/PhotoSwipe">PhotoSwipe</a>: JS 的一个图片展示库</li>
+<li>
+<a href="https://github.com/zzarcon/focusable">focusable</a>: 是页面上一个元素高亮的库，<a href="http://zzarcon.github.io/focusable/">有图有真相</a>
+</li>
+<li>
+<a href="https://github.com/paulrouget/firefox.html">firefox.html</a>: Firefox 在浏览器端的实现 —— HTML 版的 Firefox</li>
+<li>
+<a href="https://github.com/jquery/jquery-mobile">jquery-mobile</a>: jQuery 团队开发的用于辅助手机端 web app 开发的库，基于 HTML5</li>
+<li>
+<a href="https://github.com/taye/interact.js">interact.js</a>: 一个适用于现代浏览器的，用于处理 手势、拖放、缩放等的库</li>
+<li>
+<a href="https://github.com/facebook/rebound-js">rebound-js</a>: 实现部分物理效果，Facebook 出品</li>
+<li>
+<a href="https://github.com/addyosmani/basket.js">basket.js</a>: 基于 LocalStorage 的资源加载器，可以用来缓存 script 和 css, 手机端使用速度快于浏览器直接缓存</li>
+<li>
+<a href="https://github.com/cubiq/iscroll">iscroll</a>: 高性能的滚动(scroll)处理库，功能强大，支持各种事件，不依赖任何的库，且插件丰富, 大众点评的手机端列表滚动就是用这个库处理的</li>
+<li>
+<a href="https://github.com/mozilla/metrics-graphics">metrics-graphics</a>: 基于 D3 的图表库，简洁、高效，Mozilla 出品</li>
+<li>
+<a href="https://github.com/jamesallardice/Placeholders.js">Placeholders.js</a>: 为不支持的 HTML5 的浏览器提供 Placeholder 支持</li>
+<li>
+<a href="https://github.com/LeaVerou/prefixfree">prefixfree</a>: 自动为 CSS 添加 Vender Prefix，把你从不停添加浏览器前缀的噩梦中解放出来</li>
+</ul>
+
+<h6>
+<a id="angularjs" class="anchor" href="#angularjs" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>AngularJS</h6>
+
+<ul>
+<li>
+<a href="https://github.com/passy/angular-masonry">angular-masonry</a>: Masonry 的 AngularJS 插件，用于瀑布流</li>
+<li>
+<a href="https://github.com/Textalk/angular-schema-form">angular-schema-form</a>: 根据 JSON 生成响应的 Form 表单</li>
+<li>
+<a href="https://github.com/mgonto/restangular">restangular</a>: Angular 中用来处理 RESTful API 的插件，可替代 $resource</li>
+<li>
+<a href="https://github.com/driftyco/ng-cordova">ng-cordova</a>: Cordova 常用组件的 Angular 版本</li>
+<li>
+<a href="https://github.com/angular-translate/angular-translate">angular-translate</a>: Angular 的国际化 (I18n)</li>
+<li>
+<a href="https://github.com/rev087/ng-inspector">ng-inspector</a>: Chrome 插件，用于调试 Angular</li>
+<li>
+<a href="https://github.com/mgechev/angularjs-style-guide">angularjs-style-guide</a>: AngularJS 代码风格</li>
+<li>
+<a href="https://github.com/davidchang/ngReact">ngReact</a>: React 的 Angular 插件，可以在 Angular 中使用 React Components</li>
+<li>
+<a href="https://github.com/angular/material">material</a>: Google Material Design 效果的 Angular 实现</li>
+</ul>
+
+<h4>
+<a id="css" class="anchor" href="#css" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>CSS</h4>
+
+<ul>
+<li>
+<a href="https://github.com/IanLunn/Hover">Hover</a>: 基于 CSS3 的各种 鼠标悬停(hover)特效, <a href="http://ianlunn.github.io/Hover/">点击查看效果</a>
+</li>
+<li>
+<a href="https://github.com/saeedalipoor/icono">icono</a>: 一款用纯 CSS 实现的图标库</li>
+<li>
+<a href="https://github.com/necolas/normalize.css">normalize.css</a>: 一个用于重置浏览器内置样式的库</li>
+<li>
+<a href="https://github.com/dhg/Skeleton">Skeleton</a>: 一个 CSS 相关的库，用于构建对手机友好的网站</li>
+</ul>
+
+<h2>
+<a id="web-后端" class="anchor" href="#web-%E5%90%8E%E7%AB%AF" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Web 后端</h2>
+
+<h4>
+<a id="ruby" class="anchor" href="#ruby" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Ruby</h4>
+
+<ul>
+<li>
+<a href="https://github.com/ruby/ruby">ruby</a>: Ruby 源代码</li>
+<li>
+<a href="https://github.com/balvig/spyke">spyke</a>: 像使用 ActiveRecord 一样使用 RESTful API </li>
+<li>
+<a href="https://github.com/twopoint718/reactive_record">reactive_record</a>: 根据 ActiveRecord 的 数据库 Schema 来反向生成 Model</li>
+<li>
+<a href="https://github.com/eventmachine/eventmachine">eventmachine</a>: Ruby 中著名的事件驱动库</li>
+<li>
+<a href="https://github.com/stympy/faker">faker</a>: Perl 的 Data::Faker 库的一个 Ruby 实现，用于虚拟各种类型的数据</li>
+<li>
+<a href="https://github.com/ruby-amqp/amqp">amqp</a>: RabbitMQ 的 Ruby 客户端，基于 EventMachine</li>
+<li>
+<a href="https://github.com/ruby-amqp/bunny">bunny</a>: 另一个 RabbitMQ 的 Ruby 客户端</li>
+<li>
+<a href="https://github.com/pat/thinking-sphinx">thinking-sphinx</a>: Sphinx 全文搜索的 ActiveRecord 插件</li>
+<li>
+<a href="https://github.com/jcupitt/ruby-vips">ruby-vips</a>: Ruby 的一款图像处理库, 基于 libvips</li>
+<li>
+<a href="https://github.com/gocardless/statesman">statesman</a>: Ruby 的一个状态机</li>
+<li>
+<a href="https://github.com/aasm/aasm">aasm</a>: 另一款 Ruby 状态机</li>
+<li>
+<a href="https://github.com/airblade/paper_trail">paper_trail</a>: 一款强大的用于记录 Model 变更的库，非常适合于 创建记录的版本和审查变更</li>
+<li>
+<a href="https://github.com/celluloid/timers">timers</a>: Ruby 的一个 Timer 库，适合于配合事件使用</li>
+<li>
+<a href="https://github.com/gitlabhq/gitlab-shell">gitlab-shell</a>: gitlab 的命令行工具，用于替换 gitolite</li>
+<li>
+<a href="https://github.com/RubyMoney/money">money</a>: Ruby 的一个数字、货币转换库</li>
+<li>
+<a href="https://github.com/RubyMoney/money-rails">money-rails</a>: Rails 的一个数字、货币转换库</li>
+<li>
+<a href="https://github.com/nomad/houston">houston</a>: APN 的 Ruby 库</li>
+<li>
+<a href="https://github.com/scambra/devise_invitable">devise_invitable</a>: Devise 的一个插件，用于邀请用户</li>
+<li>
+<a href="https://github.com/mikel/mail">mail</a>: Ruby 的处理邮件的库</li>
+<li>
+<a href="https://github.com/tj/commander">commander</a>: Ruby 的命令行辅助库</li>
+<li>
+<a href="https://github.com/helios-framework/helios">helios</a>: 一个为 IOS 提供后端支撑的库</li>
+<li>
+<a href="https://github.com/middleman/middleman">middleman</a>: 一个辅助制作静态网站的工具</li>
+<li>
+<a href="https://github.com/elabs/pundit">pundit</a>: 一个处理认证的库</li>
+<li>
+<a href="https://github.com/elabs/refile">refile</a>: 一个处理图片上传的库</li>
+<li>
+<a href="https://github.com/cowbell/sharedrop">sharedrop</a>: Airdrop 的 HTTP5 实现，基于 WebRTC</li>
+<li>
+<a href="https://github.com/titanous/mailman">mailman</a>: 处理接收邮件的库</li>
+<li>
+<a href="https://github.com/mruby/mruby">mruby</a>: mini-ruby (light-weight ruby) 轻量级 Ruby 源代码</li>
+<li>
+<a href="https://github.com/utgarda/sidekiq-status">sidekiq-status</a>: Sidekiq 插件，用来监控任务状态</li>
+<li>
+<a href="https://github.com/dockyard/postgres_ext">postgres_ext</a>: ActiveRecord 的插件，扩展了 PostgreSQL 相关的一些功能</li>
+<li>
+<a href="https://github.com/prawnpdf/prawn">prawn</a>: Ruby 的 PDF 编辑工具</li>
+<li>
+<a href="https://github.com/rails/spring">spring</a>: Rails 的加载器，可以加速 Rails 开发</li>
+<li>
+<a href="https://github.com/rails/rails">rails</a>: Rails 源代码</li>
+<li>
+<a href="https://github.com/xinminlabs/newrelic-grape">newrelic-grape</a>: Grape 的 Newrelic 插件</li>
+<li>
+<a href="https://github.com/stevebartholomew/newrelic_moped">newrelic_moped</a>: Moped 的 Newrelic 插件</li>
+<li>
+<a href="https://github.com/kickstarter/rack-attack">rack-attack</a>: 基于 Rack 的防攻击中间件</li>
+<li>
+<a href="https://github.com/whitequark/rack-utf8_sanitizer">rack-utf8_sanitizer</a>: Rack 的 UTF8 序列化中间件</li>
+<li>
+<a href="https://github.com/junegunn/redis-stat">redis-stat</a>: Redis 监控工具</li>
+<li>
+<a href="https://github.com/MiniProfiler/rack-mini-profiler">rack-mini-profiler</a>: Rack 中间件，用于分析各个性能指标，如 SQL, View渲染等</li>
+<li>
+<a href="https://github.com/SamSaffron/memory_profiler">memory_profiler</a>: 用于分析内存占用</li>
+<li>
+<a href="https://github.com/tmm1/gctools">gctools</a>: 用于分析和优化 Ruby GC，可以配合 Unicorn 使用</li>
+<li>
+<a href="https://github.com/mileszs/wicked_pdf">wicked_pdf</a>: Rails 插件，用于生成 PDF</li>
+<li>
+<a href="https://github.com/steveklabnik/request_store">request_store</a>: Rack 中间件，用于保存仅单次请求有效的的全局变量，线程安全</li>
+<li>
+<a href="https://github.com/slim-template/slim">slim</a>: 基于 Ruby 的前端模板引擎，类似于 Haml, 语法更简洁，据说相比于 Haml 会更快一些</li>
+<li>
+<a href="https://github.com/colszowka/simplecov">simplecov</a>: Ruby 测试代码的覆盖率分析</li>
+<li>
+<a href="https://github.com/sass/sass">sass</a>: CSS 框架，使得编写 CSS 更加容易和有趣，支持模块化、变量、运算、Mixin等</li>
+<li>
+<a href="https://github.com/tripit/slate">slate</a>: 静态的 API 接口文档生成工具，干净、整洁、对手持设备友好、单页应用、代码高亮</li>
+<li>
+<a href="https://github.com/dockyard/ruby-destroyed_at">ruby-destroyed_at</a>: ActiveRecord 扩展，支持安全删除</li>
+<li>
+<a href="https://github.com/ricardochimal/taps">taps</a>: 支持数据库导入导出 -&gt; 原理是，对导出目标数据库建立一个服务器提供数据接口，然后对目标导入数据库进行数据导入，依赖 Sinatra 启动数据库接口服务</li>
+<li>
+<a href="https://github.com/kpumuk/meta-tags">meta-tags</a>: 为 Rails 应用提供 SEO 优化支持</li>
+<li>
+<a href="https://github.com/elasticsearch/logstash">logstash</a>: 日志、时间管理工具</li>
+</ul>
+
+<h4>
+<a id="python" class="anchor" href="#python" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Python</h4>
+
+<ul>
+<li>
+<a href="https://github.com/django/django">django</a>: 一个全栈式的 web 框架, 类似于 Rails</li>
+<li>
+<a href="https://github.com/sophron/wifiphisher">wifiphisher</a>: WIFI 中间人钓鱼攻击工具，获取用户名密码</li>
+<li>
+<a href="https://github.com/jonathanslenders/python-prompt-toolkit">python-prompt-toolkit</a>: Python 的交互命令行工具，提供代码补全、高亮等</li>
+<li>
+<a href="https://github.com/sripathikrishnan/redis-rdb-tools">redis-rdb-tools</a>: Redis 的 dump.rdb 文件解析器，用于分析内存使用、导出 JSON 以及 比较不同 rdb 文件差异</li>
+<li>
+<a href="https://github.com/Supervisor/supervisor">supervisor</a>: 类UNIX下用于控制进程的一个开源库，通过配置可以监控、自动重启各种服务</li>
+<li>
+<a href="https://github.com/yyuu/pyenv">pyenv</a>: Python 版本管理工具，类似于 RVM</li>
+<li>
+<a href="https://github.com/binux/pyspider">pyspider</a>: 一个爬虫系统</li>
+</ul>
+
+<h4>
+<a id="nodejs" class="anchor" href="#nodejs" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>NodeJS</h4>
+
+<ul>
+<li>
+<a href="https://github.com/nwjs/nw.js">Node-Webkit.js</a>: Node-Webkit 是基于Chromium 和 node.js的运行环境，可以用来创建桌面应用程序</li>
+<li>
+<a href="https://github.com/request/request">request</a>: 基于 Node.js 的用于网络请求的库，使用简单，功能强大</li>
+<li>
+<a href="https://github.com/hapijs/hapi">hapi</a>: 一个配置优先的 web 框架，<a href="http://hapijs.com/">hapijs.com</a>
+</li>
+<li>
+<a href="https://github.com/addyosmani/psi">psi</a>: 用于分析页面速度的工具，支持命令行</li>
+<li>
+<a href="https://github.com/gulpjs/gulp">gulp</a>: 基于 Node.js 的流式构建系统</li>
+<li>
+<a href="https://github.com/orchestrator/orchestrator">orchestrator</a>: 一个可以并行执行任务和依赖的库</li>
+<li>
+<a href="https://github.com/rwaldron/johnny-five">johnny-five</a>: 用 Javascript 控制机器人</li>
+<li>
+<a href="https://github.com/mozilla/popcorn-js">popcorn-js</a>: Mozilla 的一个开源项目，允许开发者基于 HTML5 音视频的时间线添加互动元素，比如注释，字幕，甚至动画</li>
+<li>
+<a href="https://github.com/senchalabs/connect">connect</a>: Node 中间件支持，注：Express 4 以下依赖此库，从 4 开始支持全新的 Router，类似于 Rails Engine</li>
+<li>
+<a href="https://github.com/Marak/faker.js">faker.js</a>: Faker 的 Node 实现，用于生成假数据</li>
+<li>
+<a href="https://github.com/jstrace/chart">chart</a>: 用于终端生成 ASCII 图表</li>
+<li>
+<a href="https://github.com/asciimoo/drawille">drawille</a>: 用于终端生成 ASCII 图形</li>
+<li>
+<a href="https://github.com/sindresorhus/sparkly">sparkly</a>: spark.sh 的一个 Javascript 实现，终端生成 sparklines</li>
+<li>
+<a href="https://github.com/node-inspector/node-inspector">node-inspector</a>: Node 的调试神器，使用方法，用 <code>node-debug</code> 代替 <code>node</code> 启动服务，并在你想调试的地方输入 <code>debugger</code>
+</li>
+<li>
+<a href="https://github.com/NodeOS/NodeOS">NodeOS</a>: 基于 Node 的操作系统</li>
+<li>
+<a href="https://github.com/creationix/js-git">js-git</a>: Git 的 Javascript 实现</li>
+<li>
+<a href="https://github.com/devongovett/pdfkit">pdfkit</a>: Node 和 浏览器均可以使用的，用于生成 PDF 的库</li>
+<li>
+<a href="https://github.com/sindresorhus/empty-trash">empty-trash</a>: 清空垃圾桶</li>
+<li>
+<a href="https://github.com/sindresorhus/trash">trash</a>: 安全删除文件 -&gt; 将文件放入垃圾桶</li>
+<li>
+<a href="https://github.com/squaremo/rabbit.js">rabbit.js</a>: RabbitMQ 的 Node 客户端</li>
+<li>
+<a href="https://github.com/tildeio/htmlbars">htmlbars</a>: 基于 Handlebars 的一个变种，可以编写直接操作 DOM 的辅助方法</li>
+<li>
+<a href="https://github.com/lovell/sharp">sharp</a>: Node 的一个图像处理的库，基于 libvips</li>
+<li>
+<a href="https://github.com/visionmedia/debug">debug</a>: 一个用于在 console 或者 浏览器输出日志，方便与 Debug 的工具</li>
+<li>
+<a href="https://github.com/IonicaBizau/github-contributions">github-contributions</a>: 一个好玩的库，用于在 github 的 contribution calendar 上输出你想要的文字或者图案</li>
+<li>
+<a href="https://github.com/hexojs/hexo">hexo</a>: 基于 Node 的静态博客，类似于 Octopress</li>
+<li>
+<a href="https://github.com/nqdeng/7-days-nodejs">7-days-nodejs</a>: 七天学会 Node.js</li>
+<li>
+<a href="https://github.com/grmmph/GhostScroll">GhostScroll</a>: Ghost 的一个主题</li>
+<li>
+<a href="https://github.com/haydenbleasel/ghost-themes">ghost-themes</a>: 多个 Ghost 主题</li>
+<li>
+<a href="https://github.com/unconed/TermKit">TermKit</a>: 一个基于 Chrome 和 Node 的终端应用</li>
+<li>
+<a href="https://github.com/lrsjng/h5ai">h5ai</a>: 配置简单，美观的 http 静态目录，支持 Nginx、Apache 等</li>
+<li>
+<a href="https://github.com/nodeapps/http-server">http-server</a>: Http 静态服务器，基于 Node, 配置简单</li>
+<li>
+<a href="https://github.com/argon/node-apn">node-apn</a>: Node 的 APN (Apple Push Notification) 模块</li>
+<li>
+<a href="https://github.com/chaijs/chai">chai</a>: Node 的 TDD/BDD 测试框架</li>
+<li>
+<a href="https://github.com/iojs/io.js">io.js</a>: Node 的一个分支，更加活跃，开发更激进，最终的目的是合并入 Node.js</li>
+<li>
+<a href="https://github.com/facebook/immutable-js">immutable-js</a>: 不可改变的集合, 前后端通用</li>
+<li>
+<a href="https://github.com/tj/node-migrate">node-migrate</a>: Node 的数据库迁移框架</li>
+<li>
+<a href="https://github.com/NetEase/pomelo">pomelo</a>: Node 游戏服务器框架，网易开发</li>
+<li>
+<a href="https://github.com/yaronn/blessed-contrib">blessed-contrib</a>: 构建终端信息板 (Dashboard) 利器</li>
+<li>
+<a href="https://github.com/mikaelbr/node-notifier">node-notifier</a>: Node 模块，可以发送本地通知，支持 Mac/Windows/Linux</li>
+<li>
+<a href="https://github.com/prerender/prerender">prerender</a>: 用于预解析网站，主要解决单页应用(angular.js ember.js backbone.js 等)的搜索引擎 SEO 支持</li>
+<li>
+<a href="https://github.com/alongubkin/spider">spider</a>: 一种新语言，目标是编译成 Javascript</li>
+<li>
+<a href="https://github.com/jsdoc3/jsdoc">jsdoc</a>: 用来生成 Javascript API 文档的库</li>
+<li>
+<a href="https://github.com/shakyShane/browser-sync">browser-sync</a>: 多浏览器(多设备)同步库，监控 CSS/Javascript/HTML 的变更并通知到浏览器；监控浏览器的操作，如滚动、点击等事件，同步到所有的开发设备。前端开发利器！</li>
+<li>
+<a href="https://github.com/addyosmani/tmi">tmi</a>: 基于 Node 的命令行工具, 用于计算网站图片的权重，以及那些图片可以进一步优化</li>
+<li>
+<a href="https://github.com/6to5/6to5">6to5</a>: 转换 ES6 代码为 ES5，提前使用 ES6 语法带来的各种畅快！</li>
+<li>
+<a href="https://github.com/leizongmin/js-xss">js-xss</a>: 根据白名单过滤HTML(防止XSS攻击)</li>
+</ul>
+
+<h6>
+<a id="express" class="anchor" href="#express" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Express</h6>
+
+<ul>
+<li>
+<a href="https://github.com/simov/express-admin">express-admin</a>: Express 的后端，支持(MySQL, MariaDB, SQLite, PostgreSQL)</li>
+<li>
+<a href="https://github.com/simov/grant">grant</a>: Express 认证中间件(middleware)</li>
+</ul>
+
+<h4>
+<a id="erlang" class="anchor" href="#erlang" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Erlang</h4>
+
+<ul>
+<li>
+<a href="https://github.com/yrashk/kerl">kerl</a>: 版本管理器, 用于管理 Erlang/OTP 实例, 类似于 RVM</li>
+<li>
+<a href="https://github.com/rabbitmq/rabbitmq-server">rabbitmq-server</a>: RabbitMQ 消息队列 源码</li>
+<li>
+<a href="https://github.com/rabbitmq/rabbitmq-tutorials">rabbitmq-tutorials</a>: RabbitMQ 教程</li>
+<li>
+<a href="https://github.com/processone/ejabberd">ejabberd</a>: XMPP 协议的开源实现，用于及时聊天软件，Whatsapp 的聊天核心就是这个软件</li>
+<li>
+<a href="https://github.com/elixir-lang/elixir">elixir</a>: 基于 Erlang VM 的一个语言，语法类似于 Ruby</li>
+<li>
+<a href="https://github.com/phoenixframework/phoenix">phoenix</a>: 基于 Elixir 语言的 web 框架</li>
+</ul>
+
+<h4>
+<a id="java" class="anchor" href="#java" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Java</h4>
+
+<ul>
+<li>
+<a href="https://github.com/elasticsearch/elasticsearch">elasticsearch</a>: 开源的分布式搜索引擎，社区活跃，支持强大</li>
+</ul>
+
+<h4>
+<a id="cc" class="anchor" href="#cc" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>C/C++</h4>
+
+<ul>
+<li>
+<a href="https://github.com/nlohmann/json">json</a>: C++ 的 JSON 库</li>
+<li>
+<a href="https://github.com/winlinvip/simple-rtmp-server">simple-rtmp-server</a>: 运营级的互联网直播服务器集群</li>
+<li>
+<a href="https://github.com/mozilla/mozjpeg">mozjpeg</a>: JPEG 图片解码压缩，Mozilla 出品</li>
+<li>
+<a href="https://github.com/sass/libsass">libsass</a>: SASS 的 C++ 实现</li>
+<li>
+<a href="https://github.com/AfterTheRainOfStars/QQStars">QQStars</a>: 基于 WebQQ 协议和 QT 开发的 QQ 客户端</li>
+<li>
+<a href="https://github.com/BVLC/caffe">caffe</a>: 一个关于数据挖掘的库</li>
+</ul>
+
+<h4>
+<a id="go" class="anchor" href="#go" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Go</h4>
+
+<ul>
+<li>
+<a href="https://github.com/derekparker/delve">delve</a>: Go 调试器</li>
+<li>
+<a href="https://github.com/golang/go">go</a>: Go 源码</li>
+<li>
+<a href="https://github.com/astaxie/beego">beego</a>: 国内大牛开发的 Web 框架</li>
+</ul>
+
+<h2>
+<a id="ios-或-osx" class="anchor" href="#ios-%E6%88%96-osx" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>IOS 或 OSX</h2>
+
+<ul>
+<li>
+<a href="https://github.com/ArtSabintsev/Harpy">Harpy</a>: 用于检测应用更新</li>
+<li>
+<a href="https://github.com/cruffenach/CRToast">CRToast</a>: 现代、时髦的 IOS 通知提醒库</li>
+<li>
+<a href="https://github.com/mattt/Ono">Ono</a>: IOS 或者 OSX 中用于处理 XML &amp; HTML 的库</li>
+<li>
+<a href="https://github.com/indragiek/CocoaMarkdown">CocoaMarkdown</a>: IOS 或者 OSX 中用于解析或者渲染 Markdown 的库</li>
+<li>
+<a href="https://github.com/Haneke/Haneke">Haneke</a>: 一个用于缓存图片的 IOS 库，无需配置</li>
+<li>
+<a href="https://github.com/Haneke/HanekeSwift">HanekeSwift</a>: Haneke 的 swift 版本</li>
+<li>
+<a href="https://github.com/bryceredd/RFQuiltLayout">RFQuiltLayout</a>: 一个用于实现 IOS 端瀑布流的库</li>
+<li>
+<a href="https://github.com/kolyvan/kxmenu">kxmenu</a>: 用于 IOS 上实现垂直菜单，支持上下左右等方向</li>
+<li>
+<a href="https://github.com/rsms/peertalk">peertalk</a>: IOS 或者 OSX 中用于处理 USB 通信</li>
+<li>
+<a href="https://github.com/romaonthego/REMenu">REMenu</a>: IOS 中用于实现下拉菜单效果</li>
+<li>
+<a href="https://github.com/romaonthego/RESideMenu">RESideMenu</a>: IOS 中侧边栏的异步效果实现，类似于 QQ 中的侧边栏</li>
+<li>
+<a href="https://github.com/levey/AwesomeMenu">AwesomeMenu</a>: IOS 中用于实现类似于 Path 应用菜单的效果，各种酷炫</li>
+<li>
+<a href="https://github.com/Alamofire/Alamofire">Alamofire</a>: NFNetworking 的 Swift 版本</li>
+<li>
+<a href="https://github.com/supermarin/Alcatraz">Alcatraz</a>: Xcode 的包管理工具</li>
+<li>
+<a href="https://github.com/Jawbone/JBChartView">JBChartView</a>: IOS 的图表库</li>
+<li>
+<a href="https://github.com/kevinzhow/PNChart">PNChart</a>: 基于 IOS 的强大图表库</li>
+<li>
+<a href="https://github.com/BradLarson/GPUImage">GPUImage</a>: 基于 GPU 图片、视频处理库</li>
+<li>
+<a href="https://github.com/nomad/shenzhen">shenzhen</a>: 一个用于构架和发布 IOS 的命令行工具</li>
+<li>
+<a href="https://github.com/TheLevelUp/ZXingObjC">ZXingObjC</a>: ZXing(二维码、条形码扫描库) 的 Objective-C 实现</li>
+<li>
+<a href="https://github.com/pkluz/PKRevealController">PKRevealController</a>: IOS 上一个非常优秀的，用于实现侧边栏的库</li>
+<li>
+<a href="https://github.com/kif-framework/KIF">KIF</a>: IOS 功能测试框架</li>
+<li>
+<a href="https://github.com/BoltsFramework/Bolts-iOS">Bolts-iOS</a>: 为了加快开发速度的相对低层级的库集合， Parse 和 Facebook 出品</li>
+<li>
+<a href="https://github.com/nghialv/MaterialKit">MaterialKit</a>: 基于 Swift 实现的 Google Material Design 效果</li>
+<li>
+<a href="https://github.com/Carthage/Carthage">Carthage</a>: 一个简单的、去中心化的 Cocoa 依赖管理库, Swift 编写，仅用于 IOS8.0 及 以后的系统</li>
+<li>
+<a href="https://github.com/icanzilb/JSONModel">JSONModel</a>: 智能化的数据模型，有了它，再也不用手动解析JSON数据啦</li>
+<li>
+<a href="https://github.com/krzysztofzablocki/KZPlayground">KZPlayground</a>: 提供对 Objective-C 的 Playground 支持，比 Swift 更快</li>
+<li>
+<a href="https://github.com/robotmedia/RMStore">RMStore</a>: 轻量级应用内购买库，集成方便，使用简单，方便项目中快速支持应用内购买</li>
+<li>
+<a href="https://github.com/facebook/pop">pop</a>: Facebook开源出来的动画扩展库</li>
+</ul>
+
+<h2>
+<a id="android" class="anchor" href="#android" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Android</h2>
+
+<ul>
+<li>
+<a href="https://github.com/r0adkll/Slidr">Slidr</a>: 一个用于给 Activity 添加滑动消隐效果的库</li>
+<li>
+<a href="https://github.com/wasabeef/awesome-android-libraries">awesome-android-libraries</a>: Android 各种开源库的一个汇总</li>
+<li>
+<a href="https://github.com/wasabeef/awesome-android-ui">awesome-android-ui</a>: Android 各种开源UI/UX库的一个汇总</li>
+<li>
+<a href="https://github.com/1sters/material_design_zh">material_design_zh</a>: Material Design 的中文协同翻译</li>
+<li>
+<a href="https://github.com/inaka/galgo">galgo</a>: Android 的日志工具，可以将日志显示在 Activity 的最上端，方便调试</li>
+<li>
+<a href="https://github.com/pedant/sweet-alert-dialog">sweet-alert-dialog</a>: Sweet Alert Android 版本，用于应用内通知和提示</li>
+</ul>
+
+<h2>
+<a id="代码效率" class="anchor" href="#%E4%BB%A3%E7%A0%81%E6%95%88%E7%8E%87" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>代码效率</h2>
+
+<h4>
+<a id="coffeescript" class="anchor" href="#coffeescript" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>CoffeeScript</h4>
+
+<ul>
+<li>
+<a href="https://github.com/jashkenas/coffeescript">coffeescript</a>: Coffeescript 源码</li>
+</ul>
+
+<h4>
+<a id="typescript" class="anchor" href="#typescript" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>TypeScript</h4>
+
+<ul>
+<li>
+<a href="https://github.com/borisyankov/DefinitelyTyped">DefinitelyTyped</a>: 高质量的 TypeScript 资源汇总</li>
+</ul>
+
+<h4>
+<a id="sublime-text" class="anchor" href="#sublime-text" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Sublime Text</h4>
+
+<ul>
+<li>
+<a href="https://github.com/SublimeCodeIntel/SublimeCodeIntel">SublimeCodeIntel</a>: Sublime Text 的代码补全工具，支持多种语言</li>
+<li>
+<a href="https://github.com/emmetio/emmet">Emmet</a>：一个用于提高开发效率的编辑器插件，前身是Zen coding</li>
+<li>
+<a href="https://github.com/SublimeLinter/SublimeLinter3">SublimeLinter</a>: 一个提供代码质量检测的插件</li>
+<li>
+<a href="https://github.com/kairyou/SublimeTmpl">SublimeTmpl</a>：快速新建指定的模版文件</li>
+<li>
+<a href="AutoFileName">AutoFileName</a>：自动补齐文件名插件</li>
+<li>
+<a href="https://github.com/P233/Syntax-highlighting-for-Sass">Syntax-highlighting-for-Sass</a>：sass代码高亮插件</li>
+</ul>
+
+<h2>
+<a id="云计算" class="anchor" href="#%E4%BA%91%E8%AE%A1%E7%AE%97" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>云计算</h2>
+
+<h4>
+<a id="docker" class="anchor" href="#docker" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Docker</h4>
+
+<ul>
+<li>
+<a href="https://github.com/GoogleCloudPlatform/kubernetes">kubernetes</a>: Google 开源的 Docker 集中管控系统</li>
+<li>
+<a href="https://github.com/zettio/weave">weave</a>: 用于为基于不同主机的 Docker Containers 创建一个虚拟网络</li>
+</ul>
+
+<h4>
+<a id="os" class="anchor" href="#os" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>OS</h4>
+
+<ul>
+<li>
+<a href="https://github.com/joyent/smartos-live">smartos-live</a>: Joyent 出品的用于云平台的智能 OS</li>
+</ul>
+
+<h2>
+<a id="开源产品论坛在线教育项目管理等" class="anchor" href="#%E5%BC%80%E6%BA%90%E4%BA%A7%E5%93%81%E8%AE%BA%E5%9D%9B%E5%9C%A8%E7%BA%BF%E6%95%99%E8%82%B2%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86%E7%AD%89" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>开源产品(论坛、在线教育、项目管理等)</h2>
+
+<ul>
+<li>
+<a href="https://github.com/edx/edx-platform">Edx</a>: 在线教育平台源代码，Edx</li>
+<li>
+<a href="https://github.com/AlchemyCMS/alchemy_cms">alchemy_cms</a>: 开源 CMS 系统，基于 Rails</li>
+<li>
+<a href="https://github.com/flynn/flynn">flynn</a>: 下一代 PAAS 服务产品，用于管理主机或者 AWS 实例</li>
+<li>
+<a href="https://github.com/zensh/jsgen">jsgen</a>: 开源论坛、博客系统, 基于 Node.js, AngularJS, MongoDB</li>
+<li>
+<a href="http://git.libreboard.com/libreboard/libreboard">libreboard</a>: <a href="https://github.com/libreboard/libreboard">开源看板系统</a>，除了配色，长得几乎和 <a href="https://trello.com">Trello</a> 一模一样</li>
+<li>
+<a href="https://github.com/twostairs/paperwork">paperwork</a>: 开源笔记系统，类似于Evernote, Microsoft OneNote &amp; Google Keep</li>
+<li>
+<a href="https://github.com/arachnys/cabot">cabot</a>: 开源服务器监控服务</li>
+<li>
+<a href="https://github.com/mozilla/firefox-ios">firefox-ios</a>: IOS 版 Firefox 源代码</li>
+<li>
+<a href="https://github.com/gogits/gogs">gogs</a>: 一款开源 Git 托管服务，基于 GO 语言开发，类似于 Gitlab</li>
+</ul>
+
+<h2>
+<a id="awesome-系列" class="anchor" href="#awesome-%E7%B3%BB%E5%88%97" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Awesome 系列</h2>
+
+<ul>
+<li>
+<a href="https://github.com/sindresorhus/awesome">awesome</a>: awesome 汇总</li>
+<li>
+<a href="https://github.com/Aufree/trip-to-iOS">iOS 学习资料整理</a>: IOS 的各种学习资料整理，初学者必备</li>
+<li>
+<a href="https://github.com/wasabeef/awesome-android-libraries">awesome-android-libraries</a>: Android 各种开源库的一个汇总</li>
+<li>
+<a href="https://github.com/wasabeef/awesome-android-ui">awesome-android-ui</a>: Android 各种开源UI/UX库的一个汇总</li>
+<li>
+<a href="https://github.com/prakhar1989/awesome-courses">awesome-courses</a>: 关于计算机科学的各种大学教学课程</li>
+<li>
+<a href="https://github.com/markets/awesome-ruby">awesome-ruby</a>: Ruby 资源集合</li>
+</ul>
+
+<h2>
+<a id="代码规范设计模式" class="anchor" href="#%E4%BB%A3%E7%A0%81%E8%A7%84%E8%8C%83%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>代码规范&amp;设计模式</h2>
+
+<h4>
+<a id="ruby-1" class="anchor" href="#ruby-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Ruby</h4>
+
+<ul>
+<li>
+<a href="https://github.com/airbnb/ruby">Airbnb 的 ruby 代码编写规范</a>: Airbnb 的 ruby 代码编写规范</li>
+</ul>
+
+<h6>
+<a id="rails" class="anchor" href="#rails" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Rails</h6>
+
+<ul>
+<li>
+<a href="https://github.com/bbatsov/rails-style-guide">Rails 代码编写规范</a>: Rails 代码编写规范</li>
+</ul>
+
+<h4>
+<a id="java-1" class="anchor" href="#java-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Java</h4>
+
+<ul>
+<li>
+<a href="https://github.com/iluwatar/java-design-patterns">java-design-patterns</a>: Java 设计模式</li>
+</ul>
+
+<h4>
+<a id="bash" class="anchor" href="#bash" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Bash</h4>
+
+<ul>
+<li>
+<a href="https://github.com/progrium/bashstyle">bashstyle</a>: Bash 代码编写规范</li>
+</ul>
+
+<h4>
+<a id="objective-c" class="anchor" href="#objective-c" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Objective-C</h4>
+
+<ul>
+<li>
+<a href="https://github.com/NYTimes/objective-c-style-guide">objective-c-style-guide</a>: Objective-C 代码编写规范，New York Times 出品</li>
+</ul>
+
+<h2>
+<a id="数据库" class="anchor" href="#%E6%95%B0%E6%8D%AE%E5%BA%93" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>数据库</h2>
+
+<ul>
+<li>
+<a href="https://github.com/begriffs/postgrest">postgrest</a>: PostgreSQL 的 RESTful API</li>
+<li>
+<a href="https://github.com/amjith/pgcli">pgcli</a>: PostgreSQL 命令行工具，提供高亮和自动补全</li>
+<li>
+<a href="https://github.com/mongodb/mongo">mongo</a>: MongoDB 源代码</li>
+<li>
+<a href="https://github.com/louischatriot/nedb">nedb</a>: 纯 Javascript 实现，类 MongoDB 的内存型数据库，API 基本和 MongoDB相同，可选同步写入磁盘，小项目数据不太多时性能很强乃至超过MongoDB</li>
+<li>
+<a href="https://github.com/Tokutek/mongo">TokuMX MongoDB</a>: TokuMX 版的 MongoDB, MongoDB 的一个分支，支持更快的写速度，完整的事务支持等</li>
+</ul>
+
+<h2>
+<a id="博客--网站" class="anchor" href="#%E5%8D%9A%E5%AE%A2--%E7%BD%91%E7%AB%99" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>博客 / 网站</h2>
+
+<h4>
+<a id="设计" class="anchor" href="#%E8%AE%BE%E8%AE%A1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>设计</h4>
+
+<ul>
+<li>
+<a href="https://dribbble.com/">Dribble</a>: 设计师必上的网站，各种设计资源、创意、分享等</li>
+<li>
+<a href="https://designmuseum.org/">Design Museum</a>: 当代前沿设计，涉及设计的各个领域</li>
+<li>
+<a href="https://www.behance.net/">Behance</a>: 创意&amp;设计资源集合，Adobe 旗下网站(应用)</li>
+<li>
+<a href="http://www.awwwards.com/">Awwwards</a>: 一家筛选评比互联网上最佳网站设计开发的网站</li>
+<li>
+<a href="http://www.gooood.hk/">gooood</a>: 建筑，景观，设计，艺术在线杂志</li>
+<li>
+<a href="http://ui4app.com/">ui4app</a>: 专注于 IOS UI 的一个网站，提供各种设计资源</li>
+</ul>
+
+<h4>
+<a id="技术" class="anchor" href="#%E6%8A%80%E6%9C%AF" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>技术</h4>
+
+<ul>
+<li>
+<a href="http://code4app.com/">code4app</a>: 专注于IOS 代码的一个网站，提供各种功能实现 Demo</li>
+<li>
+<a href="http://css-tricks.com/">CSS Tricks</a>: 各种 CSS 技巧</li>
+<li>
+<a href="http://www.html5rocks.com/en/">html5rocks</a>: 提供各种各样关于 HTML5 的资讯</li>
+<li>
+<a href="http://html5weekly.com/">html5weekly</a>: 提供各种各样关于 HTML5 的资讯和技巧</li>
+<li>
+<a href="http://rubyweekly.com/">rubyweekly</a>: 提供各种各样关于 Ruby 的资讯和技巧</li>
+<li>
+<a href="http://javascriptweekly.com/">javascriptweekly</a>: 提供各种各样关于 Javascript 的资讯和技巧</li>
+<li>
+<a href="http://www.ng-newsletter.com/">ng-newsletter</a>: 提供各种各样关于 Angular 的资讯和技巧</li>
+<li>
+<a href="https://cnodejs.org/">cnodejs</a>: 国内最大最火 Node.js 社区</li>
+<li>
+<a href="https://ruby-china.org/">ruby-china</a>: 国内最大最火 Ruby 社区</li>
+<li>
+<a href="http://angularjs.cn/">angularjs</a>: Angularjs 的国内中文社区</li>
+</ul>
+
+<h2>
+<a id="书籍--阅读" class="anchor" href="#%E4%B9%A6%E7%B1%8D--%E9%98%85%E8%AF%BB" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>书籍 / 阅读</h2>
+
+<ul>
+<li>
+<a href="https://github.com/h5bp/Front-end-Developer-Interview-Questions">Front-end-Developer-Interview-Questions</a>: 各种前端面试问题</li>
+<li>
+<a href="https://github.com/alex/what-happens-when">what-happens-when</a>: 一篇文章，详细解释了从在浏览器中输入网址之后发生的一切</li>
+<li>
+<a href="https://github.com/addyosmani/backbone-fundamentals">backbone-fundamentals</a>: 关于 Backbone 的一本书，初学和高级都适用</li>
+<li>
+<a href="https://github.com/JuanitoFatas/fast-ruby">fast-ruby</a>: 怎样写出更快的 Ruby</li>
+<li>
+<a href="https://github.com/interagent/http-api-design">http-api-design</a>: 从 Heroku 接口总结出的，如何更好地设计 API 接口</li>
+<li>
+<a href="https://github.com/astaxie/build-web-application-with-golang">build-web-application-with-golang</a>: beego 作者写的关于怎么使用 Go 语言开发 web 应用的书</li>
+<li>
+<a href="https://github.com/thoughtbot/til">til</a>: 今天我们学了什么，thoughtbot 出品，建议 watch</li>
+<li>
+<a href="https://github.com/qinjx/30min_guides">30min_guides</a>: 覃健祥的学习笔记，若干个几十分钟入门的文档</li>
+<li>
+<a href="https://github.com/soulteary/tenant-point">tenant-point</a>: 租房要点，适用于北上广深杭</li>
+<li>
+<a href="https://github.com/http2/http2-spec">http2-spec</a>: HTTP 2 草案</li>
+<li>
+<a href="http://numbbbbb.gitbooks.io/-the-swift-programming-language-/content/">The Swift Programming Language 中文版</a>: The Swift Programming Language 中文版, 苹果官方教程的中文翻译</li>
+<li>
+<a href="https://github.com/0xAX/linux-insides">linux-insides</a>: 关于 Linux 内核的一些知识</li>
+<li>
+<a href="https://github.com/papers-we-love/papers-we-love">papers-we-love</a>: 计算机科学学术论文的一个集合，内容丰富有深度</li>
+<li>
+<a href="http://nodejs.ucdok.com/">Node.js 实战</a>: 以实战开发中的应用为例的讲解</li>
+<li>
+<a href="http://nodeschool.io/">http://nodeschool.io/</a>: 基于 Node.js 打造的、跑在终端上的开源教学课程。</li>
+<li>
+<a href="http://www.imooc.com/">慕课网</a>: 在线学习平台，各种编程学习资源</li>
+<li>
+<a href="https://github.com/pana/node-books">node-books</a>: 关于 Node.js 的一些书籍</li>
+<li>
+<a href="https://github.com/maxogden/art-of-node">art-of-node</a>: Node的艺术, 一本简短的书，旨在介绍 Node</li>
+</ul>
+
+<h2>
+<a id="科学上网" class="anchor" href="#%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>科学上网</h2>
+
+<ul>
+<li>
+<a href="https://github.com/clowwindy/ShadowVPN">ShadowVPN</a>: 科学上网之 VPN</li>
+<li>
+<a href="https://github.com/shadowsocks/shadowsocks">shadowsocks</a>: 科学上网利器(服务器端) ~ 墙外的世界丰富多彩</li>
+<li>
+<a href="https://github.com/clowwindy/gfwlist2pac">gfwlist2pac</a>: 科学上网之 GFWlist to Pac</li>
+</ul>
+
+<h2>
+<a id="其他" class="anchor" href="#%E5%85%B6%E4%BB%96" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>其他</h2>
+
+<ul>
+<li>
+<a href="https://github.com/maciejczyzewski/retter">retter</a>: 密码学相关的算法库</li>
+<li>
+<a href="https://github.com/gorhill/uBlock">uBlock</a>: Chrome, Firefox, Safari 插件用来屏蔽内容（如广告等），可自定义</li>
+<li>
+<a href="https://github.com/rust-lang/rust">rust</a>: Rust 语言源码</li>
+<li>
+<a href="https://github.com/sitaramc/gitolite">gitolite</a>: 用于构建 Git 服务器</li>
+<li>
+<a href="https://github.com/aui/font-spider">font-spider</a>: 中文 WebFont 自动化压缩工具</li>
+<li>
+<a href="https://github.com/mroth/lolcommits">lolcommits</a>: 给自己的 git commit 加一张杀马特的照片</li>
+<li>
+<a href="https://github.com/ndbroadbent/scm_breeze">scm_breeze</a>: Git 流程的辅助简化工具</li>
+<li>
+<a href="https://github.com/maryrosecook/gitlet">gitlet</a>: Javascript 实现的 Git</li>
+</ul>
+
+<h3>
+<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Support or Contact</h3>
+
+<p>Having trouble with Pages? Check out our <a href="https://help.github.com/pages">documentation</a> or <a href="https://github.com/contact">contact support</a> and we’ll help you sort it out.</p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/linuxing3">linuxing3</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
